@@ -113,3 +113,12 @@ body{overflow-x: hidden;}
     margin-bottom: 30px;
     font-size: 1.2rem;
 }
+
+.footer__info{
+    color: #ffffff;
+    line-height: 30px;
+    font-size: 1.0rem;
+}
+    
+
+
