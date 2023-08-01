@@ -1,0 +1,115 @@
+:root{--encabezado: #0bd50b;
+--enlaces: #000000;}
+
+#menu {background-color: #b7b2afa1  !important;
+}
+
+.nav-link{color: var(--enlaces);
+font-weight:bold;}
+
+.nav-link:hover{
+    color: #bc3508ad;
+}
+
+.alto-img{height: 650px !important;
+}
+.dropdown-item{color: #9e0808 !important;
+}
+
+/*SERVICIOS*/
+
+#Servicios{
+    background-color: #830909;
+}
+
+#Servicios .titulo{ 
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+
+}
+
+/*videos*/
+
+#Videos{
+    background-color: #550b0b;
+    
+}
+#Videos .video{text-align: center;
+    width:  100%;
+color: #ffffff;
+}
+
+/*clase 16 24 07 23*/
+
+body{overflow-x: hidden;}
+
+/*Footer color fondo y letras*/
+#page-footer{background-color: #232441;
+
+}
+#page-footer a{
+    color: #0bd50b;
+}
+#page-footer .ftcontainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    padding-top: 40px 0;
+    flex-wrap: nowrap;
+
+}
+
+.footer__menu{
+    max-width: 300px;
+    grid-column: 1/3;
+    grid-row-start: 1;
+    padding-left: 1em;
+
+}
+
+.footer__menu figure{
+    width: 100;
+    padding: o;
+    margin-top: 10px;
+}
+
+.footer__logo{
+    width: 200px;
+}
+
+#page-footer .ftcontainer{
+    max-width: 1200px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 70px o;
+
+}
+
+
+.ft-social{
+    color: #1be1e1e8;
+    border-radius: 100%;
+    height: auto;
+    width: 50px;
+    display: inline-block;
+    font-size: 14px;
+    line-height: inherit;
+
+}
+
+.ft-link{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer__title{
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+}
