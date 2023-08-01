@@ -121,4 +121,19 @@ body{overflow-x: hidden;}
 }
     
 
+.footer__link:nth-child(1){
+    border-left: #0bd50b;
+}
+.footer__link:nth-child(2){
+    border-left: #970865;
+}
+.footer__link:nth-child(3){
+    border-left: #b7d50b;
+}
 
+.footer-credits{
+    width: 100%;
+    color: #ffffffad;
+    text-align: center;
+    background-color: #101345;
+}
